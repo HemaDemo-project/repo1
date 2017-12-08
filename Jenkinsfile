@@ -1,11 +1,4 @@
-properties([
-  pipelineTriggers([
-    upstream(
-      threshold: 'SUCCESS',
-      upstreamProjects: '../repo2/master'
-    )
-  ])
-])
+
 
 pipeline {
     agent any
