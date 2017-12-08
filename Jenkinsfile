@@ -12,10 +12,8 @@ pipeline {
         
          stage('2'){
                 steps{
-                script {
-                  if (env.BRANCH_NAME == 'master') {
-                   build '../repo2/master'
-                            }  
+                    script {
+                   build '../repo2/master'  
               }
                 }
             }
