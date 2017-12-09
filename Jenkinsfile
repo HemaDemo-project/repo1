@@ -10,13 +10,7 @@ pipeline {
            
         }
         
-         stage('2'){
-                steps{
-                    script {
-                   build '../repo2/master'  
-              }
-                }
-            }
+       
     }
     post { 
         always { 
