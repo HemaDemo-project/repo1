@@ -3,7 +3,7 @@
 pipeline {
     agent any
     parameters {
-        booleanParam(defaultValue: true, description: '', name: 'userFlag')
+        booleanParam(defaultValue: false, description: '', name: 'userFlag')
     }
     stages {
         stage('Example') {
